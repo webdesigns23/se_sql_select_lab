@@ -1,6 +1,6 @@
 ## Introduction
 
-In this assessment lab, you will explore basic techniques for retrieving and transforming data using SQL (Structured Query Language) in Python. You will be working with the employees table stored in the `data.sqlite` file and your code for this lab will be in `main.py`. You can use print statements to check your code as you go. Imagine that you are working within the HR department of the fictional Northwinds Company as a data specialist/analyst and need to be able to easily access select employee records. SQL is just the tool you need!
+In this assessment lab, you will explore basic techniques for retrieving and transforming data using SQL (Structured Query Language) in Python. You will be working with the employees table stored in the `data.sqlite` file and your code for this lab will be in `main.py`. You can run `pytest` and use print statements to check your code as you go. Imagine that you are working within the HR department of the fictional Northwinds Company as a data specialist/analyst and need to be able to easily access select employee records. SQL is just the tool you need!
 <br /><br />
 SQL is a powerful language that allows us to interact with relational databases and perform various operations on the data. By leveraging SQL queries, we can efficiently retrieve specific subsets of data, create meaningful aliases for improved readability, transform selected columns using CASE statements, and utilize built-in SQL functions to perform advanced transformations.
 
@@ -19,6 +19,8 @@ Example:
 ```python
 df_answer = pd.read_sql("""SELECT * FROM some_table""", connection)
 ```
+
+Start by running `pipenv install` and `pipenv shell`. You can run the test suite at any time to check your work with `pytest` or `pytest -x` if you want to just run 1 test at a time. You can run the file to check print statement outputs with `python3 main.py`.
 
 ### Step 1
 
