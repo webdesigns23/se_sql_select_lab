@@ -132,9 +132,9 @@ In the code below we have provided a look at a new table within the database pro
 ```python
 # Add the code below and run the file to see order details data
 
-pd.read_sql("""SELECT * FROM orderDetails;""", conn)
+order_details = pd.read_sql("""SELECT * FROM orderDetails;""", conn)
 print("------------------Order Details Data------------------")
-print(employee_data)
+print(order_details)
 print("----------------End Order Details Data----------------")
 ```
 
