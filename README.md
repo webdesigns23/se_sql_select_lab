@@ -85,7 +85,7 @@ Use `CASE` to bin where the jobTitles of President, VP Sales, or VP Marketing ha
 
 <br /><br />
 
-Define the result of the `CASE` as a new column called `role`. Assign to  the vaiable `df_executive`.
+Define the result of the `CASE` as a new column called `role`. Assign to  the variable `df_executive`.
 
 <br />
 
