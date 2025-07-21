@@ -18,7 +18,7 @@ print("-------------------End Employee Data-------------------")
 df_first_five = pd.read_sql(""" 
 SELECT employeeNumber, lastName
 FROM employees;
-""", conn).head()
+""", conn)
 
 print(df_first_five)
 
@@ -27,7 +27,7 @@ print(df_first_five)
 df_five_reverse = pd.read_sql(""" 
 SELECT lastName, employeeNumber
 FROM employees
-""", conn).head()
+""", conn)
 
 print(df_five_reverse)
 
